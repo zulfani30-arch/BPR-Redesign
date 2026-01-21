@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -61,6 +62,7 @@ const App: React.FC = () => {
         </AnimatePresence>
         <Footer />
         <ScrollToTop />
+        <SpeedInsights />
       </div>
     </Router>
   );
