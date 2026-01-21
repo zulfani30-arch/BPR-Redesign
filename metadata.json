@@ -1,0 +1,8 @@
+{
+  "name": "Copy of BPR Karya Parhuta Redesign",
+  "description": "A modern, high-performance banking portal for BPR Karya Parhuta featuring advanced animations, financial simulations, and AI-powered insights.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
